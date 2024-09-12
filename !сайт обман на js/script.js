@@ -18,7 +18,7 @@ button.addEventListener('click', function () {
         return;
     }else if(clickCount === 5){
           // Запускаем звуковой файл при 5 нажатии
-          const audio = new Audio('aaggkh-krik-starplatinum.mp3'); // Укажите путь к звуковому файлу
+          const audio = new Audio('img/aaggkh-krik-starplatinum.mp3'); // Укажите путь к звуковому файлу
           audio.play(); // Играть звук
           alert("ты напросился")
           setTimeout(() => {
